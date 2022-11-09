@@ -1,0 +1,8 @@
+query dispatches ($accountNumber: String!)
+{
+  plannedDispatches(accountNumber: $accountNumber) {
+    startDt
+    endDt
+    delta
+  }
+}

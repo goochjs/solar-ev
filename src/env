@@ -1,0 +1,8 @@
+# environment variables to be defined inside a .env file
+GIVENERGY_API_ENDPOINT="https://api.givenergy.cloud/v1/inverter/<SERIAL_NUMBER>/presets"
+GIVENERGY_API_KEY=""
+OCTOPUS_ACCOUNT_NUMBER=""
+OCTOPUS_API_ENDPOINT="https://api.octopus.energy/v1/graphql/"
+OCTOPUS_API_KEY=""
+PLANNED_DISPATCHES_GQL="plannedDispatches-query.graphql"
+TOKEN_MUTATION_GQL="token-mutation.graphql"
